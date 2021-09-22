@@ -1,9 +1,6 @@
-name: Slack Notification for MWSCUP Team
+name: Slack notification for mws_2021
 on:
   pull_request:
-    branches:
-      - main
-  push:  # for test
     branches:
       - main
 
@@ -16,9 +13,9 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_CHANNEL: mws_2021
-          SLACK_COLOR: green
-          SLACK_TITLE: Pull Request
+          SLACK_COLOR: good
+          SLACK_TITLE: Pull Request Message
           SLACK_MESSAGE: ${{ github.event.head_commit.message }}
           SLACK_MSG_AUTHOR: ${{ github.actor }}
-          SLACK_ICON: https://cdn-icons-png.flaticon.com/512/921/921513.png
+          SLACK_ICON: https://cdn-icons-png.flaticon.com/512/1051/1051275.png
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
