@@ -20,11 +20,11 @@ Vagrant.configure("2") do |config|
  
   config.vm.box = "ubuntu/focal64"
   config.disksize.size = '50GB'
-  config.vm.synced_folder "./shared", "/home/vagrant/vagrant_shared"
+  config.vm.synced_folder "./vms", "/home/vagrant/vagrant_shared"
   config.vm.provision "shell", inline: <<-SHELL
     apt-get -y update
 	  apt-get -y upgrade
     apt-get -y install ubuntu-desktop
-	  sh /home/vagrant//vagrant_shared/cuckoo-vm/install.sh
+	  sh /home/vagrant/vagrant_shared/vms/malware_analysis/install.sh
   SHELL
 end
