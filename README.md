@@ -15,8 +15,8 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 ## Content
 
-- [Malware Analysis]("https://github.com/tdu-isl/sedu-vm/vms/malware_analysis")
-- [Security Assessment]("https://github.com/tdu-isl/sedu-vm/vms/security_assessment")
+- [Malware Analysis]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis")
+- [Security Assessment]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
 - [?]()
 - [?]()
 
