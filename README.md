@@ -1,7 +1,7 @@
 # sedu-vm
 
 [作業](docs/progress.md)  
-sedu-vm: <span style="color:red";>se</span>curity + <span style="color:red";>edu</span>cation + vm
+sedu-vm: <span style="color: red;">se</span>curity + <span style="color: red;">edu</span>cation + vm
 
 ## Description
 
