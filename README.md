@@ -3,6 +3,17 @@
 [作業](docs/progress.md)  
 sedu-vm: <span style="color: red;">se</span>curity + <span style="color: red;">edu</span>cation + vm
 
+```
+ ____  _____ ____  _   _    __     ____  __ 
+/ ___|| ____|  _ \| | | |   \ \   / /  \/  |
+\___ \|  _| | | | | | | |____\ \ / /| |\/| |
+ ___) | |___| |_| | |_| |_____\ V / | |  | |
+|____/|_____|____/ \___/       \_/  |_|  |_|
+                                            
+```
+
+- [日本語版 README](https://github.com/tdu-isl/sedu-vm/blob/main/docs/README_JP.md)
+
 ## Description
 
 This is the automatic building scripts of multiple cyber security-related tool and environments.
@@ -13,7 +24,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 <img src="https://github.com/tdu-isl/sedu-vm/wiki/images/demo.gif" alt="属性" title="demo">
 </div>
 
-## Content
+## Tool/Environment
 
 - [Malware Analysis]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis")
 - [Security Assessment]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
@@ -24,12 +35,12 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 1. Clone this repository to your computer
 2. Open Powershell, and use ```cd``` command to get into the repository folder
-3. Run ```vagrant up``` command in order to install Ubuntu 20.04 virtual machine on your computer
-4. After the installation finished, run ```vagrant reload``` command to restart the Ubuntu 20.04 virtual machine
+3. Run ```.\start_installation.ps1``` command to start installation
+4. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them.
 
 # Note
 1. The installed Ubuntu 20.04's configurations on your computer are:
-   > The configuration of the Ubuntu can be modified in the ```Vagrantfile```
+   > The configuration of the Ubuntu can be modified in the ```Vagrantfile: vb.customize```
    1. virual machine name: ```MalAnalysis_Ubuntu```
    2. Login name / password: ```vagrant``` / ```vagrant```
    3. GUI: True
@@ -46,9 +57,9 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 ## Author
 
-- [a]()
-- [b]()
-- [c]()
-- [d]()
-- [e]()
-- [f]()
+- [:boy:Fumiya Kurihara]()
+- [:boy:Ryosuke Okayasu]()
+- [:boy:Ziyuan Yang]()
+- [:boy:Teruki Yoshikawa]()
+- [:boy:Yuki Yoshida]()
+- [:man:Jiaxing Zhou]()
