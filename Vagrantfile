@@ -10,11 +10,14 @@ Vagrant.configure("2") do |config|
 	vb.customize [
 	  "modifyvm", :id, 
 	  "--hwvirtex", "on",
-    "--graphicscontroller", "vmsvga",
-    "--accelerate3d", "off",
-    "--vrde",  "off",
+    "--graphicscontroller", "vboxvga",
+    "--accelerate3d", "on",
+    "--vrde",  "on",
     "--clipboard", "bidirectional",
 	  "--vram", "256",
+    "--nestedpaging", "on",
+    "--ioapic", "on",
+    "--pae", "on",
 	]
   end
  
@@ -25,6 +28,8 @@ Vagrant.configure("2") do |config|
     apt-get -y update
 	  apt-get -y upgrade
     apt-get -y install ubuntu-desktop
-	  sh /home/vagrant/vagrant_shared/vms/malware_analysis/install.sh
   SHELL
+  config.vm.provision "shell", path: "vms/vm_selection.sh"
+  # config.vm.provision "shell", path: "/home/vagrant/vagrant_shared/vms/malware_analysis/install.sh"
+  
 end
