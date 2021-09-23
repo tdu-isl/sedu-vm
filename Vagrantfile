@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
     vb.gui = TRUE
 	  vb.cpus = 4
     vb.memory = 4096
-    vb.name = "MalAnalysis_Ubuntu"
+    vb.name = "sedu_vm"
 	vb.customize [
 	  "modifyvm", :id, 
 	  "--hwvirtex", "on",
@@ -29,7 +29,5 @@ Vagrant.configure("2") do |config|
 	  apt-get -y upgrade
     apt-get -y install ubuntu-desktop
   SHELL
-  config.vm.provision "shell", path: "vms/vm_selection.sh"
-  # config.vm.provision "shell", path: "/home/vagrant/vagrant_shared/vms/malware_analysis/install.sh"
   
 end

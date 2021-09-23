@@ -26,3 +26,6 @@ vagrant up
 
 # restart Ubuntu
 vagrant reload
+
+# select tool/environment to install
+sh .\vm_selection.sh
