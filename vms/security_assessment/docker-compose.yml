@@ -1,0 +1,17 @@
+version: '2'
+services:
+  vuln-web:
+    web:
+      build: .
+      volums: path/to/
+    ports:
+      - "8080:8080"
+
+  # metasploitable2
+  vuln-platform:
+    ports:
+      - "22:22"
+
+  vuln-container:
+    ports:
+      - "9090:9090"

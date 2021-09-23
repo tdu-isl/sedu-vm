@@ -19,7 +19,7 @@
 
 ## Tool/Environment
 - [マルウェア解析]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis")
-- [セキュリティリスクアセスメント]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
+- [セキュリティ診断]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
 - [?]()
 - [?]()
 

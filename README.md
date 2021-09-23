@@ -26,8 +26,8 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 ## Tool/Environment
 
-- [Malware Analysis]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis")
-- [Security Assessment]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
+- [Malware Analysis](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
+- [Security Assessment](https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment)
 - [?]()
 - [?]()
 
@@ -53,7 +53,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 ## Licence
 
-[MIT](https://github.com/tdu-isl/sedu-vm/blob/develop/LICENSE)
+[MIT](https://github.com/tdu-isl/sedu-vm/blob/main/LICENSE)
 
 ## Author
 
