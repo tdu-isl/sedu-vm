@@ -6,22 +6,20 @@
 
 #### 周・楊：  
 ```
-* ３の作業については、どの環境を立てるかが選べるような設計が良い？
-* できればパッケージマネージャは一つのほうが良いかと思う
-* cuckoo sandboxのインストールスクリプトの配置はvms/malware_analysis配下（変更可）
+* None
 ```  
 
-  1. install virtualbox (VboxManage/vagrant)
-  2. install ubuntu in virtualbox
-  3. install Cuckoo sandbox  on Ubuntu (based on cuckoo-vm)
+  1. install Cuckoo sandbox  on Ubuntu (based on cuckoo-vm)
 
 #### 岡・栗：
 ```
-* Remnuxの動的解析以外のツールとkalitoolsの[ReverseEngineering]の項目のツール
-* 実装はkalitoolsみたいにスクリプトだけ置いといて後入れで良いと思う
+* インストールスクリプトの参考 => kalitools
+* 中身
+  * Remnuxの動的解析以外のツール
+  * katoolinの[ReverseEngineering]の項目のツール
 ```  
 
-  1. 静的解析ツールのインストールスクリプト
+  1. vms/malware_analysis配下に"static_install.sh"(名前は別のものでも良い)
 
 #### 吉・吉：  
 ```
