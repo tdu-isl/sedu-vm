@@ -29,7 +29,5 @@ Vagrant.configure("2") do |config|
 	  apt-get -y upgrade
     apt-get -y install ubuntu-desktop
   SHELL
-  # config.vm.provision "shell", path: "vms/vm_selection.sh"
-  # config.vm.provision "shell", path: "/home/vagrant/vagrant_shared/vms/malware_analysis/install.sh"
   
 end
