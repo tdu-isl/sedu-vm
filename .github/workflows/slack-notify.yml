@@ -14,8 +14,8 @@ jobs:
         env:
           SLACK_CHANNEL: mws_2021
           SLACK_COLOR: "good"
-          SLACK_TITLE: Pull Request Body Message
-          SLACK_MESSAGE: "${{ github.event.pull_request.title }}\n${{ github.event.pull_request.body }}"
+          SLACK_TITLE: ${{ github.event.pull_request.title }}
+          SLACK_MESSAGE: ${{ github.event.pull_request.body }}
           SLACK_MSG_AUTHOR: ${{ github.actor }}
           SLACK_ICON: https://cdn-icons-png.flaticon.com/512/1051/1051275.png
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
