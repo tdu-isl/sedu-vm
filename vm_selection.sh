@@ -1,4 +1,8 @@
 #!/bin/bash
+vagrant up
+
+vagrant reload
+
 
 main () {
     echo "Welcome to sedu-vm."
