@@ -7,6 +7,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 # Install virtualbox from chocolatey
 choco install -y virtualbox
 
+# Install git
+choco install -y git
+
 # Add VirtualBox to environment path in order to use VBoxManage command line
 $env:PATH = $env:PATH + ";C:\Program Files\Oracle\VirtualBox"
 
@@ -22,10 +25,10 @@ vagrant plugin install vagrant-disksize
 vagrant plugin install vagrant-vbguest
 
 # Install Ubuntu
-vagrant up
+# vagrant up
 
-# restart Ubuntu
-vagrant reload
+# # restart Ubuntu
+# vagrant reload
 
-# select tool/environment to install
-sh .\vm_selection.sh
+# # select tool/environment to install
+# .\vm_selection.ps1

@@ -34,22 +34,26 @@ This is the automatic building scripts of multiple cyber security-related tool a
 ## Install
 
 1. Clone this repository to your computer
-2. Open Powershell, and use ```cd``` command to get into the repository folder
-3. Run ```.\start_installation.ps1``` command to start installation
-4. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them.
+2. Open Powreshell, and use ```cd``` command to get into the repository folder. And run ```.\pre-build.sh``` command to 
+3. Open Git bash, and use ```cd``` command to get into the repository folder
+4. Run ```sh vm_selection.sh``` command to start installation
+5. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them.
 
 # Note
-1. The installed Ubuntu 20.04's configurations on your computer are:
+1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disable, the Windows Subsystem Linux (WSL) cannot be used anymore. Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
+   ```Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.For information please visit https://aka.ms/wsl2-install```
+`
+2. The installed Ubuntu 20.04's configurations on your computer are:
    > The configuration of the Ubuntu can be modified in the ```Vagrantfile: vb.customize```
-   1. virual machine name: ```MalAnalysis_Ubuntu```
-   2. Login name / password: ```vagrant``` / ```vagrant```
-   3. GUI: True
-   4. CPU: 4
-   5. Memory: 4096M
-   6. Video RAM: 256M
-   7. Disk size: 50GB
-   8. Copy and Paste between host and guest: bidirectional
-2. The installation will take some time :coffee:
+   1. Virual machine name: ```sedu_vm```
+   2. Login name / Password: ```vagrant``` / ```vagrant```
+   3. GUI: ```True```
+   4. CPU: ```4```
+   5. Memory: ```4096M```
+   6. Video RAM: ```256M```
+   7. Disk size: ```50GB```
+   8. Copy and Paste between host and guest: ```bidirectional```
+3. The installation will take some time :coffee:
 
 ## Licence
 
