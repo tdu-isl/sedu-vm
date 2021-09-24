@@ -24,11 +24,11 @@ main () {
 }
 
 malanalysis () {
-    sh /home/vagrant/vagrant_shared/vms/malware_analysis/install.sh
+    vagrant ssh -- -t 'cd vagrant_shared/malware_analysis; bash sandbox_install.sh; cd ..; bash static_install.sh'
 }
 
 secAssessment () {
-    echo "Security Assessment"
+    vagrant ssh -- -t 'cd vagrant_shared/security_assessment; bash install.sh'
 }
 
 main "$@"
