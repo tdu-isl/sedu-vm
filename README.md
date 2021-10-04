@@ -35,7 +35,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 1. Clone this repository to your computer
 2. Open Powreshell as Administrator, 
-3. Use ```cd``` command to get into the repository folder. Type ```Set-ExecutionPolicy RemoteSigned -scope CurrentUser -Force```, and run ```.\pre-build.sh``` command to install chocolatey, vagrant and virtualbox.
+3. Use ```cd``` command to get into the repository folder. Type ```Set-ExecutionPolicy RemoteSigned -scope CurrentUser -Force```, and run ```.\pre-build.ps1``` command to install chocolatey, vagrant and virtualbox.
 4. Restart Powershell, and run below commmands to install vagrant plugins
    ```
    vagrant plugin install vagrant-disksize
