@@ -28,7 +28,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 - [Malware Analysis](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
 - [Security Assessment](https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment)
-- [?]()
+- [Platform Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/platform_scan)
 - [?]()
 
 ## Install
@@ -46,10 +46,10 @@ This is the automatic building scripts of multiple cyber security-related tool a
 7. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them. The installation will take some time :coffee:
 
 # Note
-1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disable, the Windows Subsystem Linux (WSL) cannot be used anymore. Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
-   ```Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.For information please visit https://aka.ms/wsl2-install```
+1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disable, the Windows Subsystem Linux (WSL) cannot be used anymore (The error info is shown below). Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
+<br>```Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.For information please visit https://aka.ms/wsl2-install```
 `
-2. The installed Ubuntu 20.04's configurations on your computer are:
+1. The installed Ubuntu 20.04's configurations on your computer are:
    > The configuration of the Ubuntu can be modified in the ```Vagrantfile: vb.customize```
    1. Virual machine name: ```sedu_vm```
    2. Login name / Password: ```vagrant``` / ```vagrant```
@@ -67,9 +67,9 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 ## Author
 
-- [:boy:Fumiya Kurihara]()
+- [:boy:Fumiya Kurihara](https://github.com/kur1h4r4)
 - [:boy:Ryosuke Okayasu]()
-- [:boy:Ziyuan Yang]()
-- [:boy:Teruki Yoshikawa]()
+- [:boy:Ziyuan Yang](https://github.com/Twinsoul-Y)
+- [:boy:Teruki Yoshikawa](https://github.com/terib0l)
 - [:boy:Yuki Yoshida]()
-- [:man:Jiaxing Zhou]()
+- [:man:Jiaxing Zhou](https://github.com/Syuukakou)
