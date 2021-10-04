@@ -34,10 +34,16 @@ This is the automatic building scripts of multiple cyber security-related tool a
 ## Install
 
 1. Clone this repository to your computer
-2. Open Powreshell, and use ```cd``` command to get into the repository folder. And run ```.\pre-build.sh``` command to 
-3. Open Git bash, and use ```cd``` command to get into the repository folder
-4. Run ```sh vm_selection.sh``` command to start installation
-5. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them.
+2. Open Powreshell as Administrator, 
+3. Use ```cd``` command to get into the repository folder. Type ```Set-ExecutionPolicy RemoteSigned -scope CurrentUser -Force```, and run ```.\pre-build.sh``` command to install chocolatey, vagrant and virtualbox.
+4. Restart Powershell, and run below commmands to install vagrant plugins
+   ```
+   vagrant plugin install vagrant-disksize
+   vagrant plugin install vagrant-vbguest
+   ```
+5. Open Git bash, and use ```cd``` command to get into the repository folder
+6. Run ```sh vm_selection.sh``` command to start installation
+7. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them. The installation will take some time :coffee:
 
 # Note
 1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disable, the Windows Subsystem Linux (WSL) cannot be used anymore. Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
@@ -53,7 +59,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
    6. Video RAM: ```256M```
    7. Disk size: ```50GB```
    8. Copy and Paste between host and guest: ```bidirectional```
-3. The installation will take some time :coffee:
+
 
 ## Licence
 
