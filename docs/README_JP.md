@@ -54,8 +54,8 @@
 ## Author
 
 - [:boy:栗原 史弥](https://github.com/kur1h4r4)
-- [:boy:岡安 良輔]()
+- [:boy:岡安 良輔](https://github.com/RyosukeOkayasu)
 - [:boy:ヨウ シゲン](https://github.com/Twinsoul-Y)
 - [:boy:吉川 照規](https://github.com/terib0l)
-- [:boy:吉田 侑生]()
+- [:boy:吉田 侑生](https://github.com/y0sh1da)
 - [:man:周 家興](https://github.com/Syuukakou)
