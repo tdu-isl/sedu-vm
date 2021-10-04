@@ -9,7 +9,8 @@ main () {
     echo
     echo "1: Malware Analysis"
     echo "2: Security Assessment"
-    echo -n "Please select a vm to create by choosing 1 or 2: "
+    echo "3: Platform Scan"
+    echo -n "Please select a vm to create by choosing 1, 2 or 3: "
 
     read user_input
 
@@ -19,6 +20,9 @@ main () {
             ;;
         2)
             secAssessment
+            ;;
+        3)
+            platform_scan
             ;;
         *)
             echo "Unrecognised option '$user_input'. Exiting..."
@@ -33,6 +37,10 @@ malanalysis () {
 
 secAssessment () {
     vagrant ssh -- -t 'cd vagrant_shared/security_assessment; bash install.sh'
+}
+
+platform_scan () {
+    vagrant ssh -- -t "cd vagrant_shared/platform_scan; chmod 777 allrun.sh; bash allrun.sh"
 }
 
 main "$@"

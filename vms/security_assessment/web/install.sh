@@ -1,16 +1,20 @@
 #!/bin/bash
 
 # Preparetion OWASP ZAP
-$ sudo apt install default-jre openjdk-11-jre-headless
+$ sudo apt install default-jre openjdk-11-jre-headless -y
 
 $ wget https://github.com/zaproxy/zaproxy/releases/download/v2.10.0/ZAP_2_10_0_unix.sh
 
 $ sudo sh ZAP_2_10_0_unix.sh
 
 # Preparetion Web App
-sudo apt-get install python3
+sudo apt-get install python3 -y
 
-pip install -r requirements.txt
+sudo apt-get install python3-pip -y
+
+sudo apt install python3-testresources
+
+pip3 install -r requirements.txt
 
 cd app
 
