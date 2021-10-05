@@ -12,7 +12,7 @@ sudo apt-get install python3 -y
 
 sudo apt-get install python3-pip -y
 
-sudo apt install python3-testresources
+sudo apt install python3-testresources　-y
 
 pip install -r requirements.txt
 
@@ -27,4 +27,4 @@ echo "Vuln-Web-App Start!!"
 
 cd app
 
-uvicorn main:app --reload
+python3 -m uvicorn main:app --reload

@@ -1,6 +1,5 @@
 # sedu-vm
 
-[作業](docs/progress.md)  
 sedu-vm: <span style="color: red;">se</span>curity + <span style="color: red;">edu</span>cation + vm
 
 ```
@@ -27,9 +26,8 @@ This is the automatic building scripts of multiple cyber security-related tool a
 ## Tool/Environment
 
 - [Malware Analysis](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
-- [Security Assessment](https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment)
+- [Web Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/web_scan)
 - [Platform Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/platform_scan)
-- [?]()
 
 ## Install
 
@@ -48,7 +46,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 # Note
 1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disable, the Windows Subsystem Linux (WSL) cannot be used anymore (The error info is shown below). Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
 <br>```Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.For information please visit https://aka.ms/wsl2-install```
-`
+
 1. The installed Ubuntu 20.04's configurations on your computer are:
    > The configuration of the Ubuntu can be modified in the ```Vagrantfile: vb.customize```
    1. Virual machine name: ```sedu_vm```
