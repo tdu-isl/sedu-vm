@@ -1,3 +1,5 @@
+# sedu-vm
+
 ```
  ____  _____ ____  _   _    __     ____  __ 
 / ___|| ____|  _ \| | | |   \ \   / /  \/  |
@@ -18,10 +20,10 @@
 </div>
 
 ## Tool/Environment
-- [マルウェア解析]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis")
-- [セキュリティ診断]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
+- [マルウェア解析](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
+- [ウェブスキャン](https://github.com/tdu-isl/sedu-vm/tree/main/vms/web_scan)
 - [プラットフォームスキャン](https://github.com/tdu-isl/sedu-vm/tree/main/vms/platform_scan)
-- [?]()
+
 
 ## Install
 1. まずは、このレポジトリをローカルにクローンしてください。

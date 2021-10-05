@@ -7,8 +7,10 @@ vagrant reload
 main () {
     echo "Welcome to sedu-vm."
     echo
+    cat BANNER.txt
+    echo
     echo "1: Malware Analysis"
-    echo "2: Security Assessment"
+    echo "2: Web Scan"
     echo "3: Platform Scan"
     echo -n "Please select a vm to create by choosing 1, 2 or 3: "
 
@@ -19,7 +21,7 @@ main () {
             malanalysis
             ;;
         2)
-            secAssessment
+            web_scan
             ;;
         3)
             platform_scan
@@ -35,8 +37,8 @@ malanalysis () {
     vagrant ssh -- -t 'cd vagrant_shared/malware_analysis; bash sandbox_install.sh; cd ..; bash static_install.sh'
 }
 
-secAssessment () {
-    vagrant ssh -- -t 'cd vagrant_shared/security_assessment; bash install.sh'
+web_scan () {
+    vagrant ssh -- -t 'cd vagrant_shared/web_scan; bash setup.sh'
 }
 
 platform_scan () {
