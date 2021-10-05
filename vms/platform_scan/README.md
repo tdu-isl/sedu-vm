@@ -13,6 +13,7 @@ Version 2 of this virtual machine is available for download and ships with even 
    2.Open Terminal and input ```chmod 777 allrun.sh``` to set the permission of this file.
    3.Use```./allrun.sh```to install docker with metasploitable2
    -->
-   1. When the installation is over, use```docker run --rm -it sauravbrahma/metasploit_image bash``` to run the metasploitable.
-   2. When you login to the metasploitable, input ```msfconsole```as the final step.
+   1. When the installation is over, use the below command to run the metasploitable.
+   ```docker run --rm -it sauravbrahma/metasploit_image bash``` 
+   1. When you login to the metasploitable, input ```msfconsole```as the final step.
    
