@@ -14,15 +14,17 @@ sudo apt-get install python3-pip -y
 
 sudo apt install python3-testresources
 
-pip3 install -r requirements.txt
-
-cd app
+pip install -r requirements.txt
 
 echo "Complete Installing!!"
 echo ""
-echo "How to Start: python3 manage.py runserver"
-echo "How to End  : [Ctrl + c]"
 echo "----------------------------"
-echo "Now, Start Vuln-Web-App!!"
+echo "How to Start App: uvicorn main:app --reload"
+echo "How to End App  : [Ctrl + c]"
+echo "----------------------------"
+echo ""
+echo "Vuln-Web-App Start!!"
 
-python3 manage.py runserver
+cd app
+
+uvicorn main:app --reload
