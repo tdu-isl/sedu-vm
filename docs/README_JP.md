@@ -16,7 +16,7 @@
 
 ## Demo
 <div align="center">
-<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/sedu-vm.gif" alt="属性" title="demo">
+<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/sedu-vm.gif" alt="属性" title="demo">
 </div>
 
 ## Tool/Environment
