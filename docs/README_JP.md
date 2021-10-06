@@ -62,6 +62,16 @@
     7. ディスクサイズ：50GB
     8. ホストとゲスト間のコピペ：双方向
 
+## Doing
+- プラットフォーム診断環境の拡張
+
+## ToDo
+- ブロックチェーン診断環境
+- コンテナ診断環境
+- 純粋なLinuxやWSL環境
+- UIの改善
+
+
 ## Licene
 [MIT](https://github.com/tdu-isl/sedu-vm/blob/develop/LICENSE)
 

@@ -55,7 +55,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 6. Run ```sh vm_selection.sh``` command to start installation
 7. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them. The installation will take some time :coffee:
 
-# Note
+## Note
 1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disabled, the Windows Subsystem Linux (WSL) cannot be used anymore (The error info is shown below). Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
 <br>```Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.For information please visit https://aka.ms/wsl2-install```
 
@@ -70,6 +70,15 @@ This is the automatic building scripts of multiple cyber security-related tool a
    7. Disk size: ```50GB```
    8. Copy and Paste between host and guest: ```bidirectional```
 
+
+## Doing
+- Extension of platform diagnostic environment
+
+## ToDo
+- Blockchain diagnostic environment
+- Container diagnostic environment
+- Pure Linux or WSL environment
+- UI improvements
 
 ## Licence
 
