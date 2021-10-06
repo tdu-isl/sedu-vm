@@ -25,9 +25,13 @@ This is the automatic building scripts of multiple cyber security-related tool a
 
 ## ScreenShots
 <div align="center">
+<p> Start Installation
 <img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/start_installation.png" alt="属性" title="start_installation">
+<p> Select Web Scan
 <img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan.png" alt="属性" title="web_scan">
+<p> Web Scan Installed
 <img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan_installed.png" alt="属性" title="web_scan_installed">
+<p> Check the Web Scan Status
 <img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan_confirm.png" alt="属性" title="web_scan_confirm">
 </div>
 
