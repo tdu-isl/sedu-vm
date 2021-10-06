@@ -16,19 +16,19 @@
 
 ## Demo
 <div align="center">
-<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/sedu-vm.gif" alt="属性" title="demo">
+<img src="docs/../images/sedu-vm.gif" alt="属性" title="demo">
 </div>
 
 ## スクリーンショット
 <div align="center">
 <p> インストールを開始
-<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/start_installation.png" alt="属性" title="start_installation">
+<img src="/docs/images/start_installation.png" alt="属性" title="start_installation">
 <p> ウェブスキャンを選択
-<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan.png" alt="属性" title="web_scan">
+<img src="/docs/images/web_scan.png" alt="属性" title="web_scan">
 <p> ウェブスキャンをインストールした
-<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan_installed.png" alt="属性" title="web_scan_installed">
+<img src="/docs/images/web_scan_installed.png" alt="属性" title="web_scan_installed">
 <p> ウェブスキャンの状況確認
-<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan_confirm.png" alt="属性" title="web_scan_confirm">
+<img src="/docs/images/web_scan_confirm.png" alt="属性" title="web_scan_confirm">
 </div>
 
 ## Tool/Environment
