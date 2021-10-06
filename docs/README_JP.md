@@ -19,6 +19,18 @@
 <img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/sedu-vm.gif" alt="属性" title="demo">
 </div>
 
+## スクリーンショット
+<div align="center">
+<p> インストールを開始
+<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/start_installation.png" alt="属性" title="start_installation">
+<p> ウェブスキャンを選択
+<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan.png" alt="属性" title="web_scan">
+<p> ウェブスキャンをインストールした
+<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan_installed.png" alt="属性" title="web_scan_installed">
+<p> ウェブスキャンの状況確認
+<img src="https://github.com/tdu-isl/sedu-vm/blob/main/docs/images/web_scan_confirm.png" alt="属性" title="web_scan_confirm">
+</div>
+
 ## Tool/Environment
 - [マルウェア解析](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
 - [ウェブスキャン](https://github.com/tdu-isl/sedu-vm/tree/main/vms/web_scan)
