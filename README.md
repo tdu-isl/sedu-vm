@@ -75,6 +75,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 - Extension of platform diagnostic environment
 
 ## ToDo
+- Install Cuckoo sandbox in docker
 - Platform diagnostic environment
    - Currently, metasploitable2 is prepared as a server to be killed, but by preparing multiple servers to be killed using kubectl etc. and building a network, a simulated training ground close to the actual network environment will be constructed.
 - Blockchain diagnostic environment
