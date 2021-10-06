@@ -75,10 +75,16 @@ This is the automatic building scripts of multiple cyber security-related tool a
 - Extension of platform diagnostic environment
 
 ## ToDo
+- Platform diagnostic environment
+   - Currently, metasploitable2 is prepared as a server to be killed, but by preparing multiple servers to be killed using kubectl etc. and building a network, a simulated training ground close to the actual network environment will be constructed.
 - Blockchain diagnostic environment
+   - Prepare an application that uses smart contracts so that you can practice diagnostics with a blockchain diagnostic tool. (Is there a free diagnostic tool yet?)
 - Container diagnostic environment
+   - Similar to Web diagnostics, by creating a vulnerable container image according to the container security policy and using a free container scan tool, you can learn how to use the container scan tool and learn the security that you should be aware of in the container. do.
 - Pure Linux or WSL environment
-- UI improvements
+   - Since Linux is often used for security education, it can be used for exercises to secure the server just by preparing pure Linux, and WSL, which is a function unique to Winodws, can also prepare an environment with one desk. I think it's convenient.
+- UI improvement
+   - Improve the first tool / environment selection screen to make it easier to use and multiple-choice
 
 ## Licence
 
