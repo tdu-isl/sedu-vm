@@ -27,7 +27,7 @@ This is the automatic building scripts of multiple cyber security-related tool a
 ## Tool/Environment
 
 - [Malware Analysis](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
-- [Security Assessment](https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment)
+- [Web Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment)
 - [Platform Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/platform_scan)
 - [?]()
 
@@ -68,8 +68,8 @@ This is the automatic building scripts of multiple cyber security-related tool a
 ## Author
 
 - [:boy:Fumiya Kurihara](https://github.com/kur1h4r4)
-- [:boy:Ryosuke Okayasu]()
+- [:boy:Ryosuke Okayasu](https://github.com/RyosukeOkayasu)
 - [:boy:Ziyuan Yang](https://github.com/Twinsoul-Y)
 - [:boy:Teruki Yoshikawa](https://github.com/terib0l)
-- [:boy:Yuki Yoshida]()
+- [:boy:Yuki Yoshida](https://github.com/y0sh1da)
 - [:man:Jiaxing Zhou](https://github.com/Syuukakou)
