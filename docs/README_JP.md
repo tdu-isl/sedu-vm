@@ -1,3 +1,5 @@
+# sedu-vm
+
 ```
  ____  _____ ____  _   _    __     ____  __ 
 / ___|| ____|  _ \| | | |   \ \   / /  \/  |
@@ -14,14 +16,26 @@
 
 ## Demo
 <div align="center">
-<img src="https://github.com/tdu-isl/sedu-vm/wiki/images/demo.gif" alt="属性" title="demo">
+<img src="docs/../images/sedu-vm.gif" alt="属性" title="demo">
+</div>
+
+## スクリーンショット
+<div align="center">
+<p> インストールを開始
+<img src="/docs/images/start_installation.png" alt="属性" title="start_installation">
+<p> ウェブスキャンを選択
+<img src="/docs/images/web_scan.png" alt="属性" title="web_scan">
+<p> ウェブスキャンをインストールした
+<img src="/docs/images/web_scan_installed.png" alt="属性" title="web_scan_installed">
+<p> ウェブスキャンの状況確認
+<img src="/docs/images/web_scan_confirm.png" alt="属性" title="web_scan_confirm">
 </div>
 
 ## Tool/Environment
-- [マルウェア解析]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis")
-- [セキュリティ診断]("https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment")
+- [マルウェア解析](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
+- [ウェブスキャン](https://github.com/tdu-isl/sedu-vm/tree/main/vms/web_scan)
 - [プラットフォームスキャン](https://github.com/tdu-isl/sedu-vm/tree/main/vms/platform_scan)
-- [?]()
+
 
 ## Install
 1. まずは、このレポジトリをローカルにクローンしてください。
@@ -48,14 +62,30 @@
     7. ディスクサイズ：50GB
     8. ホストとゲスト間のコピペ：双方向
 
+## Doing
+- プラットフォーム診断環境の拡張
+
+## ToDo
+- Dockerの中にCuckoo Sandoxをインストールする
+- プラットフォーム診断環境
+   - 現在はやられサーバとしてmetasploitable2が用意されているが、kubectl等を用い複数やられサーバを用意しネットワークを構築することで、実際のネットワーク環境に近い模擬演習場を構築する。
+- ブロックチェーン診断環境　
+   - スマートコントラクトを用いたアプリを用意し、ブロックチェーン診断ツールで診断演習ができるようにする。（まだ無償の診断ツールはない？）
+- コンテナ診断環境
+   - Web診断と同じように、コンテナセキュリティのポリシーに沿って脆弱なコンテナイメージを作り、無償のコンテナスキャンツールを用いることで、コンテナスキャンツールの使い方を学ぶとともに、コンテナで意識するべきセキュリティを学べるようにする。
+- 純粋なLinuxやWSL環境　　
+   - セキュリティ教育でLinuxを用いることが多いことから、純粋なLinuxを用意するだけでもサーバをセキュアにする演習に用いることができるし、Winodws特有の機能であるWSLも、ワンスクで環境が用意できるとなにかと便利だと思う。
+- UI改善
+   - 最初のツール/環境の選択画面を使いやすく、多肢選択できるように改善する
+
 ## Licene
 [MIT](https://github.com/tdu-isl/sedu-vm/blob/develop/LICENSE)
 
 ## Author
 
 - [:boy:栗原 史弥](https://github.com/kur1h4r4)
-- [:boy:岡安 良輔]()
+- [:boy:岡安 良輔](https://github.com/RyosukeOkayasu)
 - [:boy:ヨウ シゲン](https://github.com/Twinsoul-Y)
 - [:boy:吉川 照規](https://github.com/terib0l)
-- [:boy:吉田 侑生]()
+- [:boy:吉田 侑生](https://github.com/y0sh1da)
 - [:man:周 家興](https://github.com/Syuukakou)

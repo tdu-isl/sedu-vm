@@ -1,6 +1,5 @@
 # sedu-vm
 
-[作業](docs/progress.md)  
 sedu-vm: <span style="color: red;">se</span>curity + <span style="color: red;">edu</span>cation + vm
 
 ```
@@ -21,15 +20,26 @@ This is the automatic building scripts of multiple cyber security-related tool a
 ## Demo
 
 <div align="center">
-<img src="https://github.com/tdu-isl/sedu-vm/wiki/images/demo.gif" alt="属性" title="demo">
+<img src="docs/images/sedu-vm.gif" alt="属性" title="demo">
+</div>
+
+## ScreenShots
+<div align="center">
+<p> Start Installation
+<img src="docs/images/start_installation.png" alt="属性" title="start_installation">
+<p> Select Web Scan
+<img src="docs/images/web_scan.png" alt="属性" title="web_scan">
+<p> Web Scan Installed
+<img src="docs/images/web_scan_installed.png" alt="属性" title="web_scan_installed">
+<p> Check the Web Scan Status
+<img src="docs/images/web_scan_confirm.png" alt="属性" title="web_scan_confirm">
 </div>
 
 ## Tool/Environment
 
 - [Malware Analysis](https://github.com/tdu-isl/sedu-vm/tree/main/vms/malware_analysis)
-- [Web Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/security_assessment)
+- [Web Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/web_scan)
 - [Platform Scan](https://github.com/tdu-isl/sedu-vm/tree/main/vms/platform_scan)
-- [?]()
 
 ## Install
 
@@ -45,10 +55,10 @@ This is the automatic building scripts of multiple cyber security-related tool a
 6. Run ```sh vm_selection.sh``` command to start installation
 7. After the Ubuntu 20.04 virtual machine installed, you will be asked to select which tool or environment to install. Please select one of them. The installation will take some time :coffee:
 
-# Note
-1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disable, the Windows Subsystem Linux (WSL) cannot be used anymore (The error info is shown below). Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
+## Note
+1. Make sure that the 'Hyper-V' and 'Virtual Machine Platform' are disabled in Windows Features. When the "Virtual Machine Platform" disabled, the Windows Subsystem Linux (WSL) cannot be used anymore (The error info is shown below). Type ```bash``` command in CMD after 'Virtual Machine Platform' is disabled, you will get below error. Therefor, please use **Git Bash** to run the ```sh vm_selection.sh```.
 <br>```Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.For information please visit https://aka.ms/wsl2-install```
-`
+
 1. The installed Ubuntu 20.04's configurations on your computer are:
    > The configuration of the Ubuntu can be modified in the ```Vagrantfile: vb.customize```
    1. Virual machine name: ```sedu_vm```
@@ -60,6 +70,22 @@ This is the automatic building scripts of multiple cyber security-related tool a
    7. Disk size: ```50GB```
    8. Copy and Paste between host and guest: ```bidirectional```
 
+
+## Doing
+- Extension of platform diagnostic environment
+
+## ToDo
+- Install Cuckoo sandbox in docker
+- Platform diagnostic environment
+   - Currently, metasploitable2 is prepared as a server to be killed, but by preparing multiple servers to be killed using kubectl etc. and building a network, a simulated training ground close to the actual network environment will be constructed.
+- Blockchain diagnostic environment
+   - Prepare an application that uses smart contracts so that you can practice diagnostics with a blockchain diagnostic tool. (Is there a free diagnostic tool yet?)
+- Container diagnostic environment
+   - Similar to Web diagnostics, by creating a vulnerable container image according to the container security policy and using a free container scan tool, you can learn how to use the container scan tool and learn the security that you should be aware of in the container. do.
+- Pure Linux or WSL environment
+   - Since Linux is often used for security education, it can be used for exercises to secure the server just by preparing pure Linux, and WSL, which is a function unique to Winodws, can also prepare an environment with one desk. I think it's convenient.
+- UI improvement
+   - Improve the first tool / environment selection screen to make it easier to use and multiple-choice
 
 ## Licence
 
