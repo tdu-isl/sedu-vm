@@ -18,7 +18,8 @@ Vagrant.configure("2") do |config|
     "--nestedpaging", "on",
     "--ioapic", "on",
     "--pae", "on",
-    "--nested-hw-virt", "on"
+    "--nested-hw-virt", "on",
+	"--draganddrop", "bidirectional"
 	]
   end
  
